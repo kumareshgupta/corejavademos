@@ -17,7 +17,7 @@ public class BatchProcessingDemo {
 			Statement statement = conn.createStatement();
 			
 			
-			String query1 = "INSERT INTO LIBRARY VALUES(460,'Enjoy JSTL',300.00,'Ratnam')";
+			String query1 = "INSERT INTO LIBRARY VALUES(470,'Enjoy JSTL',300.00,'Ratnam')";
 			String query2 = "UPDATE LIBRARY SET PRICE=PRICE+PRICE*.1 WHERE PRICE>200 and PRICE<900";
 			
 			statement.addBatch(query1);
