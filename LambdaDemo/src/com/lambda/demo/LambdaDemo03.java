@@ -13,7 +13,7 @@ public class LambdaDemo03 {
 		
 		int result = iRef.multiply(100, 200);
 		
-		System.out.println(result);
+		System.out.println("Multiplication : " + result);
 	}
 
 }
