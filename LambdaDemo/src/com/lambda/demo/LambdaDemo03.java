@@ -5,14 +5,12 @@ interface IFunFour{
 }
 
 public class LambdaDemo03 {
-
 	public static void main(String[] args) {
 		IFunFour iRef = (num1, num2)->{
 			return (num1 * num2);
 		};
 		
-		int result = iRef.multiply(100, 200);
-		
+		int result = iRef.multiply(100, 200);		
 		System.out.println("Multiplication : " + result);
 	}
 
