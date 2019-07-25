@@ -1,0 +1,10 @@
+Important Java 8 features are :- 
+--------------------------------------------------------
+Java Stream API for Bulk Data Operations on Collections.
+Functional Interfaces and Lambda Expressions.
+default and static methods in Interfaces.
+forEach() method in Iterable interface.
+Concurrency API improvements.
+Collection API improvements.
+Java IO improvements.
+Java Time API.
